@@ -4,6 +4,7 @@
 (function () {
   "use strict";
   document.documentElement.classList.add("js");
+  if (window.location.search.indexOf("static") !== -1) { document.documentElement.classList.add("no-anim"); }
 
   /* ---------------- data ---------------- */
 
